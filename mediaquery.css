@@ -1,0 +1,41 @@
+@media screen and (max-width:500px) {
+    .header{
+        height: 60px;
+    }
+    .logo  {
+        font-size: 25px;
+        line-height: 60px;
+        padding: 0 20px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin-right: 20px;
+        background-color: #0a164b;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        align-items: center;
+        
+        left: 100%;
+        transition: left 0.3s;
+    }
+    .nav-menu-items{
+        line-height: 80px;
+        text-transform: uppercase;
+    }
+    .nav-menu-items:hover{
+        background:none;
+        color: thistle;
+    }
+    .menu{
+        display: block;
+        line-height: 67px;
+    }
+    .nav-menu_visible{
+        left: 0;
+    }
+
+
+
+}
